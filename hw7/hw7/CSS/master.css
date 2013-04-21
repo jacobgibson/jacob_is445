@@ -1,0 +1,58 @@
+﻿h1 {text-align:center;
+}
+
+nav {text-align:center;
+     margin:2em;
+}
+
+a {margin-right:10px;
+   margin-left:10px;
+}
+
+a:link {text-decoration: none;
+}
+
+a:hover {color:red;
+         text-decoration:underline;
+}
+
+h3 {text-align:center;
+    color:blue;
+}
+
+h5 {text-align: center;
+    color:purple;
+}
+
+footer {padding-top:5px;
+        border-top-style:double;
+        text-align:center;
+}
+
+address {display:inline;
+         text-align:center;
+}
+
+body {width:600px;
+      margin-right:auto;
+      margin-left:auto;
+}
+
+hr {height:8px;
+    color:green;
+    background-color:green;
+    width:600px;
+}
+
+#border {border-style:solid;
+         border-color:green;
+         padding:10px;
+}
+
+#aboutme {width:380px;
+}
+
+img {float:right;
+     height:200px;
+     width:200px;
+}
