@@ -1,0 +1,21 @@
+﻿h3 {text-align:center;
+    color:blue;
+}
+
+h5 {text-align: center;
+    color:purple;
+}
+
+#aboutme {width:380px;
+}
+
+#pic {float:right;
+     height:200px;
+     width:200px;
+}
+
+#Content {
+    float: left;
+    background-color: ivory;
+    width:380px;
+}

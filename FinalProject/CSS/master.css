@@ -1,0 +1,54 @@
+﻿body {width:800px;
+      background-color:ivory;
+      margin-left:auto;
+      margin-right:auto;
+}
+
+h1 {    text-align:center;
+}
+
+nav {   width:800px;
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
+        padding-bottom: 20px;
+        padding-left:20px;
+        padding-right:20px;
+}
+
+div.SiteMapPath1 {padding-bottom:20px;
+}
+
+ul.level1 { background-color:orangered;
+}
+
+a.level1:hover, a.level2:hover, a.level3:hover
+{
+background-color:honeydew;
+}
+
+ul.level2 { background-color:orangered;
+}
+
+ul.level3 { background-color:orangered;
+
+}
+
+li {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#Content {float:left;
+          width:620px;
+          background-color:ivory;
+
+}
+
+#TreeView {float:left;
+           padding-right:10px;
+}
+
+#SiteMapPath {float:left;
+              padding-bottom:10px;
+}

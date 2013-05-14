@@ -1,0 +1,11 @@
+﻿
+hr {height:8px;
+    color:green;
+    background-color:green;
+    width:600px;
+}
+
+#border {border-style:solid;
+         border-color:green;
+         padding:10px;
+}
