@@ -81,11 +81,59 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About\Contact.aspx" />
+    <Content Include="About\Default.aspx" />
+    <Content Include="About\jacob.jpg" />
+    <Content Include="About\Resume.aspx" />
+    <Content Include="CSS\AbsoluteLayout.css" />
     <Content Include="Default.aspx" />
-    <Content Include="master.css" />
+    <Content Include="CSS\default.css" />
+    <Content Include="Demos\ClientSide\ClientSide.aspx" />
+    <Content Include="Demos\ClientSide\NestedLoop.aspx" />
+    <Content Include="Demos\ClientSide\NumberDivision.aspx" />
+    <Content Include="Demos\Demo.aspx" />
+    <Content Include="Demos\Layout\AbsoluteLayout.aspx" />
+    <Content Include="Demos\Layout\FloatLayout.aspx" />
+    <Content Include="Demos\Layout\Layout.aspx" />
+    <Content Include="Demos\Layout\StaticLayout.aspx" />
+    <Content Include="Demos\ServerSide\NestedLoop.aspx" />
+    <Content Include="Demos\ServerSide\NumberDivision.aspx" />
+    <Content Include="CSS\FloatLayout.css" />
+    <Content Include="CSS\master.css" />
+    <Content Include="CSS\NestedLoop.css" />
+    <Content Include="Demos\ServerSide\ServerSide.aspx" />
+    <Content Include="JS\NestedLoop.js" />
+    <Content Include="CSS\NumberDivision.css" />
+    <Content Include="JS\NumberDivision.js" />
+    <Content Include="CSS\Resume.css" />
+    <Content Include="CSS\StaticLayout.css" />
+    <Content Include="UserControls\ServerSideInput.ascx" />
     <Content Include="Web.config" />
+    <Content Include="Demos\WebForm.aspx" />
+    <Content Include="CSS\WebForm.css" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About\Contact.aspx.designer.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About\Contact.aspx.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="About\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="About\Resume.aspx.designer.vb">
+      <DependentUpon>Resume.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About\Resume.aspx.vb">
+      <DependentUpon>Resume.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
@@ -99,6 +147,83 @@
     <Compile Include="default.Master.vb">
       <DependentUpon>default.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demos\ClientSide\ClientSide.aspx.designer.vb">
+      <DependentUpon>ClientSide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\ClientSide\ClientSide.aspx.vb">
+      <DependentUpon>ClientSide.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\ClientSide\NestedLoop.aspx.designer.vb">
+      <DependentUpon>NestedLoop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\ClientSide\NestedLoop.aspx.vb">
+      <DependentUpon>NestedLoop.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\ClientSide\NumberDivision.aspx.designer.vb">
+      <DependentUpon>NumberDivision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\ClientSide\NumberDivision.aspx.vb">
+      <DependentUpon>NumberDivision.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\Demo.aspx.designer.vb">
+      <DependentUpon>Demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\Demo.aspx.vb">
+      <DependentUpon>Demo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\Layout\AbsoluteLayout.aspx.designer.vb">
+      <DependentUpon>AbsoluteLayout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\Layout\AbsoluteLayout.aspx.vb">
+      <DependentUpon>AbsoluteLayout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\Layout\FloatLayout.aspx.designer.vb">
+      <DependentUpon>FloatLayout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\Layout\FloatLayout.aspx.vb">
+      <DependentUpon>FloatLayout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\Layout\Layout.aspx.designer.vb">
+      <DependentUpon>Layout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\Layout\Layout.aspx.vb">
+      <DependentUpon>Layout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\Layout\StaticLayout.aspx.designer.vb">
+      <DependentUpon>StaticLayout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\Layout\StaticLayout.aspx.vb">
+      <DependentUpon>StaticLayout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\ServerSide\NestedLoop.aspx.designer.vb">
+      <DependentUpon>NestedLoop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\ServerSide\NestedLoop.aspx.vb">
+      <DependentUpon>NestedLoop.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\ServerSide\NumberDivision.aspx.designer.vb">
+      <DependentUpon>NumberDivision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\ServerSide\NumberDivision.aspx.vb">
+      <DependentUpon>NumberDivision.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\ServerSide\ServerSide.aspx.designer.vb">
+      <DependentUpon>ServerSide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\ServerSide\ServerSide.aspx.vb">
+      <DependentUpon>ServerSide.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -118,6 +243,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Demos\WebForm.aspx.designer.vb">
+      <DependentUpon>WebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\WebForm.aspx.vb">
+      <DependentUpon>WebForm.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ServerSideInput.ascx.designer.vb">
+      <DependentUpon>ServerSideInput.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ServerSideInput.ascx.vb">
+      <DependentUpon>ServerSideInput.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -145,8 +284,11 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <Content Include="Web.sitemap" />
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
