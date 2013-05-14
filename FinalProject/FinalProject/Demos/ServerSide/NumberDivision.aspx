@@ -8,6 +8,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h2>Number Division</h2>
-    <uc1:ServerSideInput runat="server" ID="ServerSideInput" />
+    <asp:TextBox ID="UserInputTextBox" runat="server"></asp:TextBox>
+    <br />
+    <br />
+    <asp:Label ID="Output" runat="server" Class="correct"></asp:Label>
+    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="The valid input numbers are between 2 and 10.  Please reload this page and try again." ControlToValidate="UserInputTextBox" Display="Dynamic" CssClass="error"></asp:RequiredFieldValidator>
+    <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="UserInputTextBox" Display="Dynamic" ErrorMessage="The valid input numbers are between 2 and 10.  Please reload this page and try again." MaximumValue="10" MinimumValue="2" Type="Integer" CssClass="error"></asp:RangeValidator>
+    <br />
     <asp:Button ID="Submit" runat="server" Text="Calculate" />
 </asp:Content>

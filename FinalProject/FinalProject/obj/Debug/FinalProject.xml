@@ -38,9 +38,33 @@ RangeValidator1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:FinalProject.NumberDivision1.ServerSideInput">
+</member><member name="F:FinalProject.NumberDivision1.UserInputTextBox">
 	<summary>
-ServerSideInput control.
+UserInputTextBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FinalProject.NumberDivision1.Output">
+	<summary>
+Output control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FinalProject.NumberDivision1.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FinalProject.NumberDivision1.RangeValidator1">
+	<summary>
+RangeValidator1 control.
 </summary>
 	<remarks>
 Auto-generated field.
