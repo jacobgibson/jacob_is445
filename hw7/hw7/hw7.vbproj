@@ -81,26 +81,26 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AboutMe.aspx" />
-    <Content Include="Home.aspx" />
+    <Content Include="aboutme.aspx" />
+    <Content Include="home.aspx" />
     <Content Include="jacob.jpg" />
     <Content Include="Web.config" />
-    <Content Include="WebFormDemo.aspx" />
+    <Content Include="webformdemo.aspx" />
     <Content Include="CSS\master.css" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AboutMe.aspx.designer.vb">
-      <DependentUpon>AboutMe.aspx</DependentUpon>
+    <Compile Include="aboutme.aspx.designer.vb">
+      <DependentUpon>aboutme.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AboutMe.aspx.vb">
-      <DependentUpon>AboutMe.aspx</DependentUpon>
+    <Compile Include="aboutme.aspx.vb">
+      <DependentUpon>aboutme.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Home.aspx.designer.vb">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="home.aspx.designer.vb">
+      <DependentUpon>home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Home.aspx.vb">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="home.aspx.vb">
+      <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="hw7.Master.designer.vb">
@@ -129,11 +129,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="WebFormDemo.aspx.designer.vb">
-      <DependentUpon>WebFormDemo.aspx</DependentUpon>
+    <Compile Include="webformdemo.aspx.designer.vb">
+      <DependentUpon>webformdemo.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebFormDemo.aspx.vb">
-      <DependentUpon>WebFormDemo.aspx</DependentUpon>
+    <Compile Include="webformdemo.aspx.vb">
+      <DependentUpon>webformdemo.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
